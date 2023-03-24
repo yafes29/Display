@@ -6,12 +6,12 @@
 
 .container {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   background-color: yellow;
 }
 
 .box1 {
-  width: 100px;
   height: 100px;
   background-color: rgb(237, 13, 13);
   flex: 1;
@@ -19,7 +19,6 @@
 }
 
 .box2 {
-  width: 100px;
   height: 100px;
   background-color: blue;
   flex: 1;
@@ -27,7 +26,6 @@
 }
 
 .box3 {
-  width: 100px;
   height: 100px;
   background-color: green;
   flex: 1;
