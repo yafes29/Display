@@ -34,3 +34,17 @@
     background-color: green;
   
 }
+
+// flex-grow, flex-shrink bir integer değer alır.
+// flex- grow:0;
+// flex-shrink:1;  default değerleri
+// flex-basis ise % veya rem , em alır.
+// flex : flex-grow (1), flex-shrink (0), flex-basis(auto);
+// flex : none
+// flex: <'flex-grow'>
+// flex : <'flex-basis>
+//   ffex : <'flex-grow> <'flex-basis'>
+//   flex : <'flex-grow> <'flex-shrink>
+//   flex : <'flex-grow>> <'flex-shrink> <'flex-basis'>
+//   flex : inherit
+
