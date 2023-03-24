@@ -16,6 +16,8 @@
     width: 100px;
     height: 100px;
     background-color: rgb(237, 13, 13);
+    flex: 1;
+    order: 2;
   
 
 }
@@ -24,7 +26,8 @@
     width: 100px;
     height: 100px;
     background-color: blue;
-  
+    flex: 1;
+    order: 1;
 
 }
 
@@ -32,7 +35,7 @@
     width: 100px;
     height: 100px;
     background-color: green;
-  
+    flex: 1;
 }
 
 // flex-grow, flex-shrink bir integer değer alır.
