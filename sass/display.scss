@@ -5,39 +5,39 @@
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    
-    height: 100vh;
+    display: flex;  
+    align-items: center;
+    height: 500px;
     background-color: yellow;
 
 
 }
 
 .box1 {
-    
+    width: 100px;
     height: 100px;
     background-color: rgb(237, 13, 13);
-    flex: 1;
-    order: 2;
-  
-
+    flex-basis: 25%;
+    align-self: flex-end;
 }
-
 .box2 {
-    
+    width: 100px;
     height: 100px;
     background-color: blue;
-    flex: 1;
-   order: 1;
-
+    flex-basis: 25%;
+    align-self: flex-start;
+    align-self: baseline;
 }
 
 .box3 {
-    
-    height: 100px;
+    width: 100px;
+    // height: 100px;
+    font-size: 25px;
     background-color: green;
-    flex: 1;
+    flex-basis: 25%;
+    align-self: baseline;
+    align-self: stretch;
+    
 }
 
 // flex-grow, flex-shrink bir integer değer alır.
@@ -52,4 +52,9 @@
 //   flex : <'flex-grow> <'flex-shrink>
 //   flex : <'flex-grow>> <'flex-shrink> <'flex-basis'>
 //   flex : inherit
+//   order : 0; baslangıç değeri.
+//   align-self: auto(default değeri)
+//   alig-item değerini bozar ve main axise göre şekil alır
+//   align-self : itemlera uygulanır container yani taşıyıcı dive uygulanmaz!
+
 
